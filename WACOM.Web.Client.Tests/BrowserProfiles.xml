@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Supported values:
+<DesktopBrowser name="[Firefox | Safari | IE | Chrome | Opera]"
+                version="(view list of browsers from link above - leave empty for latest)"
+                os="[Windows | OS X]"
+                os_version="[XP | 7 | 8 | 8.1 | Lion | Snow Leopard | Mountain Lion | Mavericks]" />
+ 
+<MobileBrowser name="[iPad | iPhone | Android]" 
+                os="[iOS | Android]" 
+                device=" (view list of browsers from link above - leave empty for latest)" />
+
+See the BrowserProfiles.Sample.xml for samples and usage instructions -->
+<BrowserProfiles>
+  
+  <BrowserProfile name="Default">    
+    <DesktopBrowser name="Firefox" version="" os="Windows" os_version="8.1" />      
+    <DesktopBrowser name="Chrome" version="" os="Windows" os_version="7" />
+  </BrowserProfile>
+  
+  <BrowserProfile name="IEOnly">
+    <DesktopBrowser name="IE" version="" os="Windows" os_version="8.1" />
+  </BrowserProfile>
+
+  <BrowserProfile name="ChromeOnly">
+    <DesktopBrowser name="Chrome" version="" os="Windows" os_version="8.1" />
+  </BrowserProfile>
+  
+  <BrowserProfile name="Extended">
+    <DesktopBrowser name="Chrome" version="" os="Windows" os_version="8" />
+    <DesktopBrowser name="IE" version="10" os="Windows" os_version="8" />
+    <DesktopBrowser name="IE" version="10" os="Windows" os_version="7" />
+    <DesktopBrowser name="Safari" version="" os="OS X" os_version="Mavericks" />
+    <DesktopBrowser name="Chrome" version="" os="OS X" os_version="Mavericks" />
+  </BrowserProfile>
+
+  <BrowserProfile name="Mobile">
+    <MobileBrowser name="Android" os="android" device="" />
+    <MobileBrowser name="iPhone" os="ios" device="" />
+    <MobileBrowser name="iPad" os="ios" device="" />
+  </BrowserProfile>
+
+  <BrowserProfile name="Local">
+    <DesktopBrowser name="Firefox" version="ANY" os="ANY" os_version="ANY" />
+  </BrowserProfile>
+
+  <BrowserProfile name="Tagging">
+    <DesktopBrowser name="Firefox" version="" os="Windows" os_version="8" />
+    <DesktopBrowser name="Chrome" version="" os="Windows" os_version="8" />
+    <DesktopBrowser name="IE" version="" os="Windows" os_version="8" />
+  </BrowserProfile>
+
+</BrowserProfiles>

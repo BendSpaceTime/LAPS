@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{70E28D98-209C-4831-830A-CAE9C7CC9BD3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Azure.Automation</RootNamespace>
+    <AssemblyName>Azure.Automation</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BCMakeCert">
+      <HintPath>..\packages\FiddlerCore.4.4.8.4\lib\net40\BCMakeCert.dll</HintPath>
+    </Reference>
+    <Reference Include="CertMaker">
+      <HintPath>..\packages\FiddlerCore.4.4.8.4\lib\net40\CertMaker.dll</HintPath>
+    </Reference>
+    <Reference Include="FiddlerCore4">
+      <HintPath>..\packages\FiddlerCore.4.4.8.4\lib\net40\FiddlerCore4.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WebDriver">
+      <HintPath>..\packages\Selenium.WebDriver.2.38.0\lib\net40\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver.Support">
+      <HintPath>..\packages\Selenium.Support.2.38.0\lib\net40\WebDriver.Support.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BrowserStack\AutomateSessionsService.cs" />
+    <Compile Include="BrowserStack\DataContracts\AutomationBuild.cs" />
+    <Compile Include="BrowserStack\DataContracts\AutomationSession.cs" />
+    <Compile Include="BrowserStack\DataContracts\BuildReference.cs" />
+    <Compile Include="BrowserStack\DataContracts\SessionReference.cs" />
+    <Compile Include="Helpers\Configuration\Browser.cs" />
+    <Compile Include="Helpers\Configuration\DesktopBrowser.cs" />
+    <Compile Include="Helpers\Configuration\MobileBrowser.cs" />
+    <Compile Include="Helpers\Configuration\TestProfile.cs" />
+    <Compile Include="Helpers\Configuration\TestProfiles.cs" />
+    <Compile Include="Helpers\JsonData\JBandWidthOffer.cs" />
+    <Compile Include="Helpers\JsonData\JCultures.cs" />
+    <Compile Include="Helpers\JsonData\JPricingDetails.cs" />
+    <Compile Include="Helpers\JsonData\JVMOffers.cs" />
+    <Compile Include="Helpers\JsonHelper.cs" />
+    <Compile Include="Helpers\ExtractUrlsFromRobots.cs" />
+    <Compile Include="Helpers\FiddlerProxy.cs" />
+    <Compile Include="Helpers\Logger.cs" />
+    <Compile Include="Helpers\TestConfiguration.cs" />
+    <Compile Include="Helpers\XPathUtils.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Selenium\ComputedStyle.cs" />
+    <Compile Include="Selenium\Extensions\SearchContextExtensions.cs" />
+    <Compile Include="Selenium\Extensions\SelectElementExtensions.cs" />
+    <Compile Include="Selenium\Extensions\WebDriverExtensions.cs" />
+    <Compile Include="Selenium\Extensions\WebElementExtensions.cs" />
+    <Compile Include="Selenium\ScreenshotRemoteWebDriver.cs" />
+    <Compile Include="Selenium\SeleniumTestContext.cs" />
+    <Compile Include="Selenium\TestPlan.cs" />
+    <Compile Include="Selenium\UnsupportedBrowserAttribute.cs" />
+    <Compile Include="Selenium\UnsupportedBrowserAttributeHelper.cs" />
+    <Compile Include="Selenium\Extensions\WebDriverHelpers.cs" />
+    <Compile Include="Selenium\WebDriverTargetBrowser.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="TestSettings.testsettings" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

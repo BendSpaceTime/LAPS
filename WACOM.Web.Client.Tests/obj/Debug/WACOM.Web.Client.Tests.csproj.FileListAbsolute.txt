@@ -1,0 +1,16 @@
+D:\ACOM\20150415\acom\tests\client\code\WACOM.Web.Client.Tests\bin\Debug\BrowserProfiles.xml
+D:\ACOM\20150415\acom\tests\client\code\WACOM.Web.Client.Tests\bin\Debug\OrderedTest.orderedtest
+D:\ACOM\20150415\acom\tests\client\code\WACOM.Web.Client.Tests\bin\Debug\WACOM.Web.Client.Tests.dll.config
+D:\ACOM\20150415\acom\tests\client\code\WACOM.Web.Client.Tests\bin\Debug\WACOM.Web.Client.Tests.dll
+D:\ACOM\20150415\acom\tests\client\code\WACOM.Web.Client.Tests\bin\Debug\WACOM.Web.Client.Tests.pdb
+D:\ACOM\20150415\acom\tests\client\code\WACOM.Web.Client.Tests\bin\Debug\Azure.Automation.dll
+D:\ACOM\20150415\acom\tests\client\code\WACOM.Web.Client.Tests\bin\Debug\WebDriver.dll
+D:\ACOM\20150415\acom\tests\client\code\WACOM.Web.Client.Tests\bin\Debug\WebDriver.Support.dll
+D:\ACOM\20150415\acom\tests\client\code\WACOM.Web.Client.Tests\bin\Debug\FiddlerCore4.dll
+D:\ACOM\20150415\acom\tests\client\code\WACOM.Web.Client.Tests\bin\Debug\Azure.Automation.pdb
+D:\ACOM\20150415\acom\tests\client\code\WACOM.Web.Client.Tests\bin\Debug\WebDriver.xml
+D:\ACOM\20150415\acom\tests\client\code\WACOM.Web.Client.Tests\bin\Debug\WebDriver.Support.xml
+D:\ACOM\20150415\acom\tests\client\code\WACOM.Web.Client.Tests\bin\Debug\FiddlerCore4.xml
+D:\ACOM\20150415\acom\tests\client\code\WACOM.Web.Client.Tests\obj\Debug\WACOM.Web.Client.Tests.csprojResolveAssemblyReference.cache
+D:\ACOM\20150415\acom\tests\client\code\WACOM.Web.Client.Tests\obj\Debug\WACOM.Web.Client.Tests.dll
+D:\ACOM\20150415\acom\tests\client\code\WACOM.Web.Client.Tests\obj\Debug\WACOM.Web.Client.Tests.pdb

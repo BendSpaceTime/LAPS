@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- For a complete list of supported browser versions and platforms see http://www.browserstack.com/list-of-browsers-and-platforms?product=automate -->
+<BrowserProfiles>
+  <!-- All the TestProfiles will be executed in order -->
+  <!-- A TestProfile is composed of a set of <DesktopBroswer> and <MobileBrowser> elements -->
+  <BrowserProfile name="Default">    
+    
+    <!-- Desktop Browser Supported values -->
+    <!--  -->
+    <DesktopBrowser name="[Firefox | Safari | IE | Chrome | Opera]"
+                    version="(view list of browsers from link above - leave empty for latest)"
+                    os="[Windows | OS X]"
+                    os_version="[XP | 7 | 8 | 8.1 | Lion | Snow Leopard | Mountain Lion | Mavericks]" />
+    
+    <!-- MobileBrowser Supported values -->         
+    <MobileBrowser name="[iPad | iPhone | Android]" 
+                   os="[iOS | Android]" 
+                   device=" (view list of browsers from link above - leave empty for latest)" />
+
+    <!--  EXAMPLE 1: Internet Explorer 11 in Windows 8.1 -->
+    <DesktopBrowser name="IE" version="11" os="Windows" os_version="8.1" />
+    
+    <!--  EXAMPLE 2: Internet Explorer 9 in Windows 7 -->
+    <DesktopBrowser name="IE" version="10" os="Windows" os_version="8" />
+
+    <!--  EXAMPLE 3: Firefox 25 on Windows 7 -->
+    <DesktopBrowser name="Firefox" version="25" os="Windows" os_version="7" />
+    
+    <!--  EXAMPLE 4: Safari 7 in OS X Mavericks -->
+    <DesktopBrowser name="Safari" version="7" os="OS X" os_version="Mavericks" />
+
+    <!--  EXAMPLE 5: Android on Samsung Galaxy Nexus -->
+    <MobileBrowser name="Android" os="Android" device="Samsung Galaxy Nexus" />
+
+    <!--  EXAMPLE 6: iOS on iPhone 5S -->
+    <MobileBrowser name="iPhone" os="ios" device="iPhone 5S" />
+    
+  </BrowserProfile>
+  
+  <!-- You can define multiple Test Profiles -->
+  <BrowserProfile name="OtherTestProfile">
+    <DesktopBrowser name="Firefox" version="27" os="Windows" os_version="8.1" />
+  </BrowserProfile>
+  
+</BrowserProfiles>

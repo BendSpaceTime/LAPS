@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="orderedtest" storage="e:\wacom\tests\client\code\wacom.web.client.tests\orderedtest.orderedtest" id="51f6107b-1421-463b-a3bd-85b418852f47" continueAfterFailure="true" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestLinks>
+    <TestLink id="0f1f38b6-c77b-9279-5a55-b276b9b6d9a2" name="TestConfigurationInitialization" storage="bin\debug\wacom.web.client.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="705b93a3-4124-3a7e-b7dd-9d5b18cc93b8" name="CheckHomePageCoreCssStyles" storage="bin\debug\wacom.web.client.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="f6f636a2-a396-b312-735a-e436d1f400ff" name="CheckDocsPageTOCLinks" storage="bin\debug\wacom.web.client.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="dc305b06-dac4-84a2-000a-16836e15a458" name="OpenDocsPageAndCheckDisqus" storage="bin\debug\wacom.web.client.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="bba3583e-358a-1f58-4886-d71c228770e9" name="CheckHomePageJsEnvironmentVars" storage="bin\debug\wacom.web.client.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

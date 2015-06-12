@@ -1,0 +1,13 @@
+D:\ACOM\20150415\acom\tests\client\code\Azure.Automation\bin\Debug\Azure.Automation.dll
+D:\ACOM\20150415\acom\tests\client\code\Azure.Automation\bin\Debug\Azure.Automation.pdb
+D:\ACOM\20150415\acom\tests\client\code\Azure.Automation\bin\Debug\BCMakeCert.dll
+D:\ACOM\20150415\acom\tests\client\code\Azure.Automation\bin\Debug\CertMaker.dll
+D:\ACOM\20150415\acom\tests\client\code\Azure.Automation\bin\Debug\FiddlerCore4.dll
+D:\ACOM\20150415\acom\tests\client\code\Azure.Automation\bin\Debug\WebDriver.dll
+D:\ACOM\20150415\acom\tests\client\code\Azure.Automation\bin\Debug\WebDriver.Support.dll
+D:\ACOM\20150415\acom\tests\client\code\Azure.Automation\bin\Debug\FiddlerCore4.xml
+D:\ACOM\20150415\acom\tests\client\code\Azure.Automation\bin\Debug\WebDriver.xml
+D:\ACOM\20150415\acom\tests\client\code\Azure.Automation\bin\Debug\WebDriver.Support.xml
+D:\ACOM\20150415\acom\tests\client\code\Azure.Automation\obj\Debug\Azure.Automation.csprojResolveAssemblyReference.cache
+D:\ACOM\20150415\acom\tests\client\code\Azure.Automation\obj\Debug\Azure.Automation.dll
+D:\ACOM\20150415\acom\tests\client\code\Azure.Automation\obj\Debug\Azure.Automation.pdb
